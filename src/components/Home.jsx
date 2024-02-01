@@ -33,9 +33,9 @@ const Home = () => {
         <button className='home__btn'>Catch them all</button>
       </form>
 
-      <div>
+     { /*<div>
         <h2 className='pokeGif'>recuerda gif</h2>
-      </div>
+      </div>*/}
 
       </div>
       <FooterPoke />
