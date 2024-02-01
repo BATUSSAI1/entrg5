@@ -1,0 +1,17 @@
+.numberPages{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    margin: 5em;
+    font-size: 1.5em;
+
+}
+

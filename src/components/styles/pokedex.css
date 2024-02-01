@@ -1,0 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    background-image: url('/public/img/rock.jpg') ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+.title{
+  font-family: 'Pokemon Solid', sans-serif;
+  text-transform: uppercase;
+  color:rgb(245, 245, 29);
+  font-size: 1em;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: blue
+}
+  .pokedex__form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  @media(max-width:768px){
+    .pokedex__form{
+      gap: 0;
+    }
+  }

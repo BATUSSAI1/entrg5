@@ -1,0 +1,89 @@
+.home {
+    background-image: url('/public/img/fondoPoke.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  .card__home{  
+    width: 390px;
+    height: 370px;
+    background: rgba(73, 118, 188, 0.48);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+     border-radius: 20px ;
+     backdrop-filter: blur(3px);
+     border: 1px solid rgb(127, 22, 22);
+  
+  }
+  .home__img {
+    padding-top: 10px;
+    display:block;
+    margin: 0 auto 20px;
+    max-width: 350px;
+    align-content: center;
+    
+  }
+  .home__title {
+    color: #FE1936;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .home__form {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .home__description {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .home__input {
+    display: block;
+    padding: 8px 12px;
+    width: min-content;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px 0 0 5px;
+  }
+  .home__input::placeholder {
+    color: #d3d3d3;
+  }
+  .home__btn{
+    padding: 8px 12px;
+    border: none;
+    background-color: #FE1936;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  .home__btn:hover {
+    filter: brightness(1.1);
+  }
+
+  .pokeGif{
+
+    font-size: 50px;
+    color: blue;
+    background-color: #FE1936;
+    margin: 1.3em;
+    padding: 0;
+  }
+
+  @media(max-width:768px){
+    .home{
+      background-image: url('/public/img/fondoPoke.jpg');
+      
+    }
+    .card__home{
+      width: 350px;
+    }
+    .home__img{
+      width: 300px;
+    }
+  }
